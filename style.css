@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Average&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Ubuntu+Condensed&display=swap'); */
+
+/* 
+body{
+    margin: 0;
+} */
+
+
+/* ----------------------------------Header --------------------------------- */
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* .logo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+} */
+/* 
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar > input{
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid #818080;
+    border-radius: 4px;
+    font-family: Arvo;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30rem;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-items > ul > li{
+    font-family: Arvo;
+    padding: 10px;
+    font-size: large;
+}
+
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+
+.authenticate > button{
+    height: 35px;
+    background-color: inherit;
+    border-radius: 4px;
+    font-family: Arvo;
+    font-size: large;
+}
+
+.nav-items > ul:hover, .authenticate > button{
+    cursor: pointer;
+}
+
+/* --------------------------------- Body----------------------------------- */
+
+
+/* ---------------------------- Search Bar ------------------------ */
+
+/* 
+.search-container{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+
+/* ----------------------------- Restaurants lists --------------------- */
+/* 
+.restaurants-lists{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.restaurant-card{
+    width: 250px;
+    margin: 10px;
+    padding: 10px 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.restaurant-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.restaurant-card > h3, h5{
+    margin: 2px;
+}
+
+.restaurant-card > h3{
+    font-family: Arvo;
+    font-weight: normal;
+}
+
+.not-getting-any-proper-name > div > h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: #484848;
+}
+
+.not-getting-any-proper-name > div{
+    padding: 0px 3px;
+}
+
+.not-getting-any-proper-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-logo{
+    width: 300px;
+    height: 157.48px;
+    border-radius: 5px;
+} */ 
+
+/* -----------------------------------  Resaturant Menu ---------------------------------- */
+/* 
+.parent-off-all{
+    width: 100%;
+} */
+
+/* Centering everything */
+/* .restaurant-information, .offers, .veg-non-veg, .cuisines-catagories{
+    width: 60%;
+    margin: 0px auto;
+    font-family: Arvo;
+} */
+/* 
+hr{
+    width: 60%;
+}
+
+.restaurant-information{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+
+.personal-details > h2{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.personal-details > h5{
+    font-weight: normal;
+    color: #8d8d8d;
+}
+
+
+.rating-details{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating-details > span{
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    padding: 5px 2px;
+}
+
+.star-rating, .veg-non-veg > h4 > i{
+    color: green;
+}
+
+
+.review-count{
+    color: #8d8d8d;
+    font-size: small;
+}
+
+.offers{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+*/
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+
+.divs-inside-offers{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: 1px solid #d0d0d0;
+}
+/*
+
+.offers > div > span{
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.veg-non-veg > h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.cuisines-catagories > div{
+    margin: 5px 0;
+    padding: 5px 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+ */
+
+/* -------------------------------  Cuisines category: Item card component -------------------------- */
+
+/* 
+.head-category{
+    display: flex;
+    cursor: pointer;
+}
+
+.head-category > h3{
+    text-align: center;
+    width: 90%;
+}
+
+.head-category > p{
+    text-align: center;
+    margin: 18px 0;
+    width: 10%;
+}
+
+.meal-details-under-body-category{
+    display: flex; 
+    padding: 5px;
+    align-items: center;
+}
+
+
+.text-details-under-body-category{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.img-detail-under-body-category{
+    width: 20%;
+    text-align: center;
+}
+
+.text-details-under-body-category > h4{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.text-details-under-body-category > h5, p{
+    margin: 4px 0;
+    font-weight: normal;
+}
+
+.text-details-under-body-category > h5{
+    font-size: 13px;
+    color: #404040;
+}
+
+.text-details-under-body-category > p{
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.text-details-under-body-category, .img-detail-under-body-category{
+    padding: 0 10px;
+}
+
+.img-detail-under-body-category{
+    overflow: hidden;
+}
+
+.img-detail-under-body-category > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.liner-under-body-category > hr{
+    width: 95%;
+} */

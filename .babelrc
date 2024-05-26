@@ -1,0 +1,15 @@
+// with options
+// {
+//     "plugins": [ ["transform-remove-console" , {
+//         "exclude" : ["log"]
+//         }
+//     ]]
+// }
+//no options
+{
+    "plugins": [
+        [
+            "transform-remove-console"
+        ]
+    ]
+}
